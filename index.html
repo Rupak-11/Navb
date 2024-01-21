@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: linear-gradient(to right , black , rgb(5, 4, 4));
+    }
+
+    #logo img{
+        height: 60px;
+        /* filter: invert(100%); */
+        position: absolute;
+        top:5%;
+        left: 5%;
+        
+    }
+
+    .nav{
+        height: 10vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        margin: 13px 15px;
+        
+    }
+
+    .nav ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 170px;
+        padding: 30px 5px;
+        gap:30px;
+        
+    }
+
+    .nav ul li{
+        list-style: none;
+        font-size: 1.2rem;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .nav ul li:hover{
+        cursor: pointer;
+        color: greenyellow;
+    }
+
+    /*Filter styles
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }*/
+</style>
+<body>
+    <div id="logo">
+        <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-2-300x118.png" alt="">
+    </div>
+   <div class="nav">
+    <ul>
+        <li>Product<i class="ri-arrow-drop-down-line"></i></li>
+        <li>Pricing<i class="ri-arrow-drop-down-line"></i></li>
+        <li>Contact Us<i class="ri-arrow-drop-down-line"></i></li>
+        <li>About Us<i class="ri-arrow-drop-down-line"></i></li>
+        <li><i class="ri-translate"></i><i class="ri-arrow-drop-down-line"></i></li>
+    </ul>
+   </div>
+</body>
+</html>
